@@ -1,0 +1,72 @@
+body{
+    text-align:left;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    padding: 0.5em 1em;
+    font-weight: bold;
+    color: #6091d3;/*文字色*/
+    background: #FFF;
+    border: solid 3px #6091d3;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    /* font-size: 32px; */
+}
+
+h1{
+    background-color: #fff;
+    font-weight: bold;
+    font-size: 2vw;
+    text-align: center;
+    border-bottom: solid 2px #6091d3;
+}
+fieldset{
+    line-height: 2.0em;
+    font-size: 1vw;
+}
+main{
+    border-bottom:1px solid #ccc;
+}
+footer{
+    background-color: #fff;
+    border-bottom:1px solid #ccc;
+    text-align: center;
+}
+p{
+    font-size:  1.0vw;;
+    text-align: left;
+    border-bottom:1px solid #fff;
+    height: 50px;
+}
+ul{
+    padding: 0;
+    border-top: 1px solid #000000;
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    width:100%;
+}
+li{
+    text-align: center;
+    list-style-type:none;
+    border: 1px solid #666;
+    background-color: #FFF;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+}
+li:hover{
+    background: #0066CC;
+    color:#fff;
+}
+
+.name{
+    margin-left: 2.2vw;
+}
+
+.message{
+width: 25vw;
+margin-left: 0.68vw;
+}
+
+.mes{
+    margin-left: 2em;
+}
